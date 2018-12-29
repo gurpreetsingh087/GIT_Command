@@ -1,0 +1,16 @@
+# Hard RESET
+
+git fetch origin
+git reset --hard origin/master
+git clean -f -d
+
+
+# Git Connect
+git init
+git fetch --all
+git pull origin master
+git checkout <branch_name>
+
+# Create New Branch
+git checkout -b <branch_name>
+
